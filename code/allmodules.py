@@ -15,6 +15,9 @@ playmode, powerup, score, soundmanager, spaceship, spritesheet,
 starfield, title
 """
 '''
+modules_string = """
+attractmode, constants, data, game, gamemode, gameovermode, playmode, spritesheet
+"""
 
 def modules_import():
     mods = modules_string.split(',')
